@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/main.css" />
-    <title>Dice Game - 1 Player</title>
+    <title>Dice Game - 2 Player</title>
   </head>
   <body>
     <section class="container">
@@ -18,12 +18,18 @@
           <p id="p1CurrentScore">0</p>
         </div>
       </section>
-      <section id="column 2 - buttons dice">
-        <button id="newGame" class="button" onClick="window.location.reload();">
-          New Game
-        </button>
+      <section id="column2-buttonsdice">
         <div>
-          <img id="diceImage" src="img/qdice.svg" />
+          <button
+            id="newGame"
+            class="button"
+            onClick="window.location.reload();"
+          >
+            New Game
+          </button>
+        </div>
+        <div>
+          <img id="diceImage" src="img/Dice 6.svg" />
         </div>
         <div>
           <button id="rollButton" class="button">Roll</button>
